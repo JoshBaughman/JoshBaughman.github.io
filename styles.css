@@ -1,0 +1,131 @@
+body {
+  background: #21252e;
+  color: #fff;
+  font-family: Verdana;
+  padding: 15px 0px 15px 0px;
+  margin: auto;
+}
+  
+#wrapper{
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+  max-width: 100%; /* 2 */
+  padding: 15px 0px 10px 0px;
+  background-color: #121212;
+}
+
+#header1{
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+  max-width: 100%; /* 2 */
+  padding: 15px 0px 10px 5px;
+  background-color: #9988ee;
+}
+
+#banner{
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+  max-width: 100%; /* 2 */
+  padding: 15px 0px 10px 0px;
+}
+
+#footer{
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+  max-width: 100%; /* 2 */
+  padding: 15px 0px 10px 0px;
+}
+
+#nav{
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+  max-width: 100%; /* 2 */
+  padding: 15px 0px 10px 0px;
+  background-color: #21252e;
+}
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+
+@media only screen and (min-width: 601px) {
+  div.wrapper div.header1 div.nav{
+    font-size: 1vw;
+    
+  }
+  
+  /* Controls images */
+  .responsive {
+  width: 25%;
+  height: auto;
+}
+#wrapper{
+  max-width: 65%; /* 2 */
+  
+}
+
+#header1{
+  max-width: 65%; /* 2 */
+  
+}
+
+#nav{
+  max-width: 65%; /* 2 */
+  
+}
+
+#banner{
+  max-width: 65%; /* 2 */
+  
+}
+
+#footer{
+  max-width: 65%; /* 2 */
+  
+}
+
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+  div.wrapper div.header1 div.nav {
+  font-size: 2vw;
+  max-width: 90%; /* 2 */
+    
+  }
+  
+  /* Controls images */
+.responsive {
+  width: 30%;
+  height: auto;
+}
+
+body {
+  color: #fff;
+  font-family: Verdana;
+  max-width: 90%; /* 2 */
+  margin: auto;
+}
+
+}
+
+/* Link Stuff */
+
+a:link {
+  color: #9988ee;
+  background-color: transparent;
+}
+
+a:visited {
+  color: #9988ee;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #c36969;
+  background-color: transparent;
+}
+
+a:active {
+  color: #c36969;
+  background-color: transparent;
+}
